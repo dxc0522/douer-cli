@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Publish Npm Package",
+			"type": "process",
+			"command": "./deploy.js",
+			"dependsOn": ["Build"],
+			"windows": {
+				"options": {
+					"shell": {
+						"executable": "sh"
+					}
+				}
+			},
+			"detail": "发布Npm包",
+			"problemMatcher": []
+		}
+	]
+}

@@ -11,7 +11,7 @@
     "douer-cli": "./bin/cli.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "dou",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.2.0",
