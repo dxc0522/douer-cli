@@ -54,7 +54,6 @@ const initAction = async (name, option) => {
       try {
         const removeSpinner = ora(`${name}已存在，正在删除文件夹…`).start();
         fsExtra.removeSync(`./${name}`)
-        await new Promise((resolve) => setTimeout(resolve, 100))
         removeSpinner.succeed(chalk.green('删除成功'))
       } catch (err) {
         removeSpinner.fail(chalk.red('删除失败'))
