@@ -15,12 +15,12 @@ const JSONData = require('./package.json')
 const versionConfig = {
     "直接发布": null,
     "当前版本预发布": 'prerelease',
-    "版本迭代": 'major',
-    "功能变更": 'minor',
-    "细节变化": 'patch',
-    "版本迭代预发布": 'premajor',
-    "功能变更预发布": 'preminor',
     "细节变化预发布": 'prepatch',
+    "细节变化": 'patch',
+    "功能变更预发布": 'preminor',
+    "功能变更": 'minor',
+    "版本迭代预发布": 'premajor',
+    "版本迭代": 'major',
 }
 
 async function deploy() {

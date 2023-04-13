@@ -19,6 +19,7 @@ const repositoriesData = {
     [AdminWeb]: {
         [Vue]: {
             remote: 'https://github.com/nekobc1998923/vitecamp.git',
+            branch: 'master'
         },
         [React]: {
             remote: 'https://github.com/joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate.git',
@@ -57,6 +58,6 @@ export async function cloneRepositories(name, config) {
         console.log(symbol.error, '暂无对应仓库配置');
         throw ('暂无对应仓库配置')
     }
-    await clone(data.remote, data.branch, name,)
+    await clone(data.remote, data.branch || 'main', name,)
 
 }
