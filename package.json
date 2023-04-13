@@ -1,6 +1,6 @@
 {
 	"name": "douer-cli",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "豆豆的创建项目脚手架工具",
 	"main": "index.js",
 	"type": "module",
