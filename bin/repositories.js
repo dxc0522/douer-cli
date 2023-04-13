@@ -18,15 +18,16 @@ import clone from './clone.js'
 const repositoriesData = {
     [AdminWeb]: {
         [Vue]: {
-            remote: 'https://gitee.com/dxc12345/vue-visualization-screen.git',
-            branch: 'master',
+            remote: 'https://github.com/nekobc1998923/vitecamp.git',
         },
         [React]: {
-            remote: 'https://github.com/dxc0522/auto_script.git',
-            branch: 'master',
+            remote: 'https://github.com/joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate.git',
         },
     },
     [H5Web]: {
+        [Vue]: {
+            remote: 'https://github.com/LZHD/vue-vite-h5.git',
+        },
     },
     [NpmPackage]: {
     },
